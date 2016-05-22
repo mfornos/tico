@@ -9,19 +9,19 @@ Provides:
  * Selective min-max normalization
  * Weight factors
 
-# Requirements
+## Requirements
 
 `Node.js >= 4.4.3`
 
-# Install
+## Install
 
 `$> npm install`
 
-# Tests
+## Tests
 
 `$> npm test`
 
-# Disclaimer
+## Disclaimer
 
 Tico was created to validate hypotheses and models in the field of 
 [feature engineering](https://en.wikipedia.org/wiki/Feature_engineering),
