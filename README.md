@@ -13,6 +13,14 @@ Provides:
 
 `Node.js >= 4.4.3`
 
+# Install
+
+`$> npm install`
+
+# Tests
+
+`$> npm test`
+
 # Disclaimer
 
 Tico was created to validate hypotheses and models in the field of 
