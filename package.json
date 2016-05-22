@@ -1,0 +1,24 @@
+{
+  "name": "tico",
+  "version": "1.0.0",
+  "description": "Tiny Content-Based Recommender System",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/**/*Spec.js"
+  },
+  "keywords": [
+    "recommender",
+    "content-based",
+    "multivariate",
+    "system"
+  ],
+  "author": "mfornos",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.4.0"
+  }
+}
