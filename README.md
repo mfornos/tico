@@ -15,7 +15,7 @@ Provides:
 
 # Disclaimer
 
-Tico was created to validate hypothesis and models in the field of 
+Tico was created to validate hypotheses and models in the field of 
 [feature engineering](https://en.wikipedia.org/wiki/Feature_engineering),
 the concerns to run in high-end production environments are out of its scope.
 
