@@ -2,7 +2,7 @@
  * Tico library.
  *
  * @export {Recommender} Recommender
- * @export {Distances} Distances
+ * @export {Distances}   Distances
  */
 module.exports = {
   Recommender: require('./lib/recommender'),
