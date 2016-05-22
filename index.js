@@ -1,6 +1,6 @@
 /*
 */
 module.exports = {
-  Recommender: require('./lib/tico'),
+  Recommender: require('./lib/recommender'),
   Distances  : require('./lib/distances')
 };
