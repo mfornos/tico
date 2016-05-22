@@ -3,16 +3,16 @@ let should    = require('should'),
     Distances = require('../').Distances;
 
 describe('Distances', function() {
-  describe('#absDiff()', function () {
+  describe('#abs()', function () {
     it('should compute absolute differences', function () {
-      Distances.absDiff(0, 0).should.be.equal(0);
-      Distances.absDiff(-1, -1).should.be.equal(0);
-      Distances.absDiff(-1, 0).should.be.equal(1);
-      Distances.absDiff(-1, 1).should.be.equal(2);
-      Distances.absDiff(2, -3).should.be.equal(5);
-      Distances.absDiff(2, 3).should.be.equal(1);
-      Distances.absDiff(-4, -3).should.be.equal(1);
-      Distances.absDiff(3, 7).should.be.equal(4);
+      Distances.abs(0, 0).should.be.equal(0);
+      Distances.abs(-1, -1).should.be.equal(0);
+      Distances.abs(-1, 0).should.be.equal(1);
+      Distances.abs(-1, 1).should.be.equal(2);
+      Distances.abs(2, -3).should.be.equal(5);
+      Distances.abs(2, 3).should.be.equal(1);
+      Distances.abs(-4, -3).should.be.equal(1);
+      Distances.abs(3, 7).should.be.equal(4);
     });
   });
   describe('#manhattan()', function () {

@@ -16,12 +16,12 @@ describe('Recommender', function() {
               { 
                 normalized: true,
                 weight: 1,
-                distance: Distances.absDiff
+                distance: Distances.abs
               },
               { 
                 normalized: true,
                 weight: 1,
-                distance: Distances.absDiff
+                distance: Distances.abs
               },
               { 
                 normalized: true,
@@ -41,7 +41,7 @@ describe('Recommender', function() {
               { 
                 normalized: false,
                 weight: 1,
-                distance: Distances.absDiff
+                distance: Distances.abs
               }
             ]
           });
